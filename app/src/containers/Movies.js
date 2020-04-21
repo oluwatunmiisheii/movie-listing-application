@@ -55,10 +55,9 @@ class Movies extends Component {
     }
     return (
       <div className="row">
-        <div className="col-12 mt-5 pt-5">{content}</div>
+        <div className="col-12">{content}</div>
       </div>
     )
   }
 }
-
 export default Movies
